@@ -17,3 +17,5 @@ function advanceScene(){
     }
 }
 document.getElementById("advance").onclick=advanceScene
+
+//make a hidden class for the div which in css is defined then disable the classs at the end
