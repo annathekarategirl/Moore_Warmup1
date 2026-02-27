@@ -11,7 +11,7 @@ function advanceScene(){
         case 2:
             img.src="images/forest3.jpg"
             cap.textContent="Looking up. You are stuck here."
-            document.getElementById("ending").style.display=true
+            document.getElementById('ending').classList.remove("hidden")
             document.getElementById("button").disabled=true
             break;
     }
